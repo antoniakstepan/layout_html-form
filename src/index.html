@@ -10,7 +10,8 @@
   </head>
   <body>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST" onsubmit="onSubmit()">
+    method="POST" onsubmit="onSubmit()"
+    >
       <fieldset class="container">
         <legend>Personal information</legend>
         <label for="surname" class="lab">
@@ -98,7 +99,8 @@
         <label for="car" class="lab car">
           What are your favorite brand of cars?
           <select name="car" id="car"
-          multiple >
+          multiple
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -107,7 +109,8 @@
         <label for="rate" class="lab">
           How do you rate our work?
           <input type="range" id="rate"
-          value="0" min="0">
+          value="0" min="0"
+          >
         </label>
       </fieldset>
       <fieldset class="container">
