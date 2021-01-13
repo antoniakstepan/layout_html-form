@@ -9,40 +9,53 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST" onsubmit="onSubmit()"
+    <form
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    method="POST"
+    onsubmit="onSubmit()"
     >
       <fieldset class="container">
         <legend>Personal information</legend>
         <label for="surname" class="lab">
           Surname:
-          <input type="text"
-           name="surname" id="surname"
+          <input
+           type="text"
+           name="surname"
+           id="surname"
           >
         </label>
         <label for="name" class="lab">
           Name:
-          <input type="text"
-           name="name" id="name"
+          <input
+           type="text"
+           name="name"
+           id="name"
           >
         </label>
         <label for="old" class="lab">
           How old are You?
-          <input type="number"
-           name="old" id="old"
-            value="12" class="number"
+          <input
+          type="number"
+          name="old"
+          id="old"
+          value="12"
+          class="number"
           >
         </label>
         <label for="date" class="lab">
           Full date of birth:
-          <input type="date"
-           name="date" id="date"
+          <input
+          type="date"
+          name="date"
+          id="date"
           >
         </label>
         <label for="accept" class="lab">
           I accept the term of the agreement
-          <input type="checkbox"
-           name="accept" id="accept"
+          <input
+          type="checkbox"
+          name="accept"
+          id="accept"
           >
         </label>
       </fieldset>
@@ -52,15 +65,19 @@
         </legend>
         <label for="e-mail" class="lab">
           E-mail:
-          <input type="email"
-           name="e-mail" id="e-mail"
-           placeholder="email@example.com"
+          <input
+          type="email"
+          name="e-mail"
+          id="e-mail"
+          placeholder="email@example.com"
           >
         </label>
         <label for="password" class="lab">
           Password:
-          <input type="password"
-           name="password" id="password"
+          <input
+          type="password"
+          name="password"
+          id="password"
           >
         </label>
       </fieldset>
@@ -71,34 +88,47 @@
         <div class="lab">
           <span>Do you love cats?</span>
           <label for="yes">
-            <input type="radio" name="qwestion"
-             value="yes" id="yes"
+            <input
+            type="radio"
+            name="qwestion"
+            value="yes"
+            id="yes"
             >
              Yes
           </label>
           <label for="no">
-            <input type="radio" name="qwestion"
-             value="no" id="no"
+            <input
+            type="radio"
+            name="qwestion"
+            value="no"
+            id="no"
             >
              No
           </label>
         </div>
         <label for="color" class="lab">
              What is your favorite color?
-          <input type="color" id="color"
+          <input
+          type="color"
+          id="color"
           name="color"
           >
         </label>
         <label for="time">
           What time do you go to bed?
-          <input type="time" id="time"
-           name="time" class="time"
-           step="1"
+          <input
+          type="time"
+          id="time"
+          name="time"
+          class="time"
+          step="1"
           >
         </label>
         <label for="car" class="lab car">
           What are your favorite brand of cars?
-          <select name="car" id="car"
+          <select
+          name="car"
+          id="car"
           multiple
           >
             <option value="BMW">BMW</option>
@@ -108,8 +138,11 @@
         </label>
         <label for="rate" class="lab">
           How do you rate our work?
-          <input type="range" id="rate"
-          value="0" min="0"
+          <input
+          type="range"
+          id="rate"
+          value="0"
+          min="0"
           >
         </label>
       </fieldset>
@@ -117,7 +150,9 @@
         <legend>Additional info:</legend>
         <label for="comment" class="lab">
           Comments:
-          <textarea name="comment" id="comment">
+          <textarea
+          name="comment"
+          id="comment">
           </textarea>
         </label>
         <label for="rec">
