@@ -2,7 +2,7 @@ body {
   margin: 8px;
 }
 
-.lab {
+.label {
   display: block;
   margin-bottom: 10px;
 }
@@ -11,16 +11,8 @@ body {
   margin-bottom: 20px;
 }
 
-.lab:last-child {
+.label:last-child {
   margin-bottom: 0;
-}
-
-.number {
-  width: 65px;
-}
-
-.time {
-  width: 93px;
 }
 
 .lab.car {
